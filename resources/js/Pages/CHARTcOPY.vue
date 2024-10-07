@@ -19,6 +19,8 @@ store.setInitData(widgetOptions);
 
 <template>
 
+    new update githup adasdasda dasdasd asd asd asd asd
+
     <Modal sectioned :open="store.active" :primary-action="store.primaryAction" :secondary-actions="store.secondaryActions" @close="store.active = false">
         <template #title>{{ store.modalTitle }}</template>
         <p>{{ store.modalContent }}</p>
